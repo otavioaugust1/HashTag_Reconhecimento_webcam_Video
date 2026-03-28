@@ -1,0 +1,52 @@
+###########################
+# Ignorar ambientes virtuais
+.venv/
+venv/
+env/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos temporários e logs
+*.pyc
+*.pyo
+*.log
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignorar arquivos de imagens e vídeos
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.mp4
+*.avi
+*.mov
+
+# Ignorar arquivos e pastas de saída
+output/
+outputs/
+results/
+
+# Ignorar arquivos da pasta IMG (exceto .gitignore)
+IMG/*
+!IMG/.gitignore
+
+# Ignorar arquivos da pasta models (exceto .gitignore e modelos padrão)
+models/*
+!models/.gitignore
+!models/face_detection_short_range.tflite
+!models/hand_landmarker.task
+*.tflite
+*.task
+
+# Ignorar arquivos de configuração locais
+.env
+.env.*
