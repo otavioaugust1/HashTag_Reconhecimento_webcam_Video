@@ -83,7 +83,7 @@ def main():
         return closed == 4
 
     foto_salva = False
-    pasta_img = os.path.join(os.path.dirname(__file__), 'IMG')
+    pasta_img = os.path.join(os.path.dirname(__file__), 'img')
     if not os.path.exists(pasta_img):
         os.makedirs(pasta_img)
     try:
